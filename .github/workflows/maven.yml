@@ -6,7 +6,9 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: spring boot ci cd
+
+name: Java CI with Maven
+
 
 on:
   push:
@@ -29,4 +31,3 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean install
-
